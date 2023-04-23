@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+    font-family: 'Press Start 2P';
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.heading {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 80px;
+    text-align: center;
+}
+
+.game-over {
+    color: #ff0000;
+    padding-top: 500px;
+}
